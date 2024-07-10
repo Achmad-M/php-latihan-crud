@@ -1,0 +1,21 @@
+{
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "semi": true,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["*.php"],
+      "options": {
+        "parser": "php",
+        "singleQuote": false,
+        "trailingComma": "none"
+      }
+    }
+  ]
+}
