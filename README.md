@@ -22,7 +22,3 @@ CREATE TABLE `crud` (
 3. **`harga_satuan`** → harga per unit, pakai tipe `DECIMAL(10,2)` agar bisa menyimpan angka desimal dengan presisi 2 digit di belakang koma.
 4. **`jumlah_barang`** → jumlah stok produk (integer).
 5. **`harga_total_dari_produk`** → tidak perlu disimpan di database karena dihitung secara dinamis di PHP (`harga_satuan * jumlah_barang`).
-
-Kalau mau, aku bisa buatkan juga **contoh insert data** untuk tabel ini agar bisa langsung ditampilkan di `index.php`.
-
-Apakah mau aku buatkan?
